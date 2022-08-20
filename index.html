@@ -1,12 +1,156 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Travelsom</title>
+  <link rel="stylesheet" href="style.css">
+  <meta charset="utf-8">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Infant:wght@300;400;600&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Imprima&display=swap" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 </head>
+
 <body>
-    
+  <div class="background">
+    <div class="header">
+      <img src="img/logo.png">
+      <div class="header-right">
+        <a class="home" href="#">Home</a>
+        <a class="about" href="#">About</a>
+        <a class="active" href="#">Contact</a>
+      </div>
+    </div>
+    <p>Have a safe<br> enjoyable flight <br>with us!</p>
+
+    <div class="cont">
+
+      <div class="ro1">
+        <!--location -->
+        <div class="location">
+          <span class="iwt">
+            <svg width="70" height="70" viewBox="0 0 70 70" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <circle cx="35" cy="35" r="35" fill="white" />
+              <path fill-rule="evenodd" clip-rule="evenodd"
+                d="M37.5 30.8285C37.5 32.486 36.1575 33.8285 34.5 33.8285C32.8425 33.8285 31.5 32.486 31.5 30.8285C31.5 29.171 32.8425 27.8285 34.5 27.8285C36.1575 27.8285 37.5 29.171 37.5 30.8285ZM34.5 45.5C34.5 45.5 27 35 27 30.5C27 26.3645 30.3645 23 34.5 23C38.6355 23 42 26.3645 42 30.5C42 35 34.5 45.5 34.5 45.5ZM34.5 20C28.701 20 24 24.701 24 30.5C24 36.299 34.5 50 34.5 50C34.5 50 45 36.299 45 30.5C45 24.701 40.299 20 34.5 20Z"
+                fill="#0C1077" />
+            </svg>
+
+            <div class="poplar-cities valign-text-middle"> <span>
+                <span class="text1">Popular <br /></span>
+                <span class="text2">Cities</span>
+              </span>
+            </div>
+
+          </span>
+
+        </div>
+        <!--location -->
+        <!--umbrella-->
+        <div class="umbrella">
+          <span class="iwt">
+            <svg width="70" height="70" viewBox="0 0 70 70" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <circle cx="35" cy="35" r="35" fill="#0C1077" />
+              <path fill-rule="evenodd" clip-rule="evenodd"
+                d="M45.963 40.2206L41.5796 37.5125C42.8801 34.7463 43.9561 30.7543 43.9202 27.0723C47.0435 30.6047 47.7813 35.9889 45.963 40.2206ZM39.0175 35.9279L37.0914 34.7387L34.5323 33.1556L32.6032 31.9649C34.438 29.5285 37.494 26.8662 40.8433 25.4602C41.177 29.1408 40.2821 33.1404 39.0175 35.9279ZM30.0426 30.3819L25.6607 27.6737C28.6209 23.8588 33.5056 22.2483 38.0148 23.4284C34.8047 25.1045 32.0929 27.5012 30.0426 30.3819ZM43.4518 22.6529C43.3515 22.5842 43.2527 22.5124 43.151 22.4452C43.0282 22.3643 42.916 22.2743 42.7918 22.1964C42.6736 22.1231 42.5493 22.0682 42.4311 21.998C42.3114 21.9293 42.1902 21.8652 42.0689 21.7995C35.1069 18.0075 26.376 20.3737 22.2365 27.3425C21.9746 27.7836 21.7397 28.234 21.5271 28.6889L24.1102 30.2857L28.4607 32.974L31.0198 34.5555L32.9818 35.7676L26.3296 45.6414C25.9016 46.362 24.9812 46.5925 24.2733 46.1559C23.567 45.7193 23.341 44.7804 23.769 44.0584L24.5442 42.7532C24.9722 42.0326 24.7477 41.0938 24.0399 40.6572C23.3335 40.2191 22.4131 40.4496 21.9851 41.1716L20.4332 43.7821C19.5771 45.2247 20.0291 47.1023 21.4433 47.9755L24.0025 49.5571C25.4167 50.4318 27.2575 49.9708 28.1135 48.5282L35.5409 37.3491L37.5029 38.5627L40.0636 40.1443L44.4126 42.8325L46.9956 44.4278C47.0375 44.4538 47.5748 43.6035 47.8367 43.1638C51.9792 36.1874 49.9858 27.1883 43.4518 22.6529Z"
+                fill="white" />
+            </svg>
+
+            <div class="poplar-cities valign-text-middle"> <span>
+                <span class="text1">Wonderful<br /></span>
+                <span class="text2">Beaches</span>
+              </span>
+            </div>
+
+          </span>
+
+        </div>
+        <!--umbrella-->
+      </div>
+
+      <div class="ro1">
+        <!--plus-->
+        <div class="plus">
+          <span class="iwt">
+            <svg width="70" height="70" viewBox="0 0 70 70" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <circle cx="35" cy="35" r="35" fill="#0C1077" />
+              <path fill-rule="evenodd" clip-rule="evenodd"
+                d="M35 38.0001C33.3455 38.0001 31.9999 36.6545 31.9999 35C31.9999 33.3455 33.3455 31.9999 35 31.9999C36.6545 31.9999 38.0001 33.3455 38.0001 35C38.0001 36.6545 36.6545 38.0001 35 38.0001ZM46.9943 30.7429C46.4078 30.1564 45.4583 30.1564 44.8717 30.7429C44.2867 31.3279 44.2852 32.2789 44.8717 32.8639L45.5063 33.5H40.7886C40.2441 31.9999 38.6016 29.7559 36.5 29.2114V24.4892L37.1361 25.1253C37.7211 25.7118 38.6721 25.7118 39.2571 25.1253C39.8436 24.5402 39.8436 23.5907 39.2571 23.0042L37.1166 20.8741C35.9465 19.7086 34.0535 19.7086 32.8834 20.8741L30.7429 23.0042C30.1564 23.5907 30.1564 24.5402 30.7429 25.1253C31.3279 25.7118 32.2789 25.7118 32.8639 25.1253L33.5 24.4892V29.2114C31.3984 29.7559 29.7559 31.9999 29.2114 33.5H24.4937L25.1298 32.8639C25.7148 32.2789 25.7148 31.3279 25.1298 30.7429C24.5432 30.1564 23.5922 30.1564 23.0057 30.7429L20.8741 32.8834C19.7086 34.0535 19.7086 35.9465 20.8741 37.1166L23.0057 39.2571C23.5922 39.8436 24.5417 39.8436 25.1283 39.2571C25.7133 38.6721 25.7148 37.7211 25.1283 37.1361L24.4937 36.5H29.2114C29.7559 38.0001 31.3984 40.2441 33.5 40.7886V45.5108L32.8639 44.8747C32.2789 44.2882 31.3279 44.2882 30.7429 44.8747C30.1564 45.4598 30.1564 46.4093 30.7429 46.9958L32.8834 49.1259C34.0535 50.2914 35.9465 50.2914 37.1166 49.1259L39.2571 46.9958C39.8436 46.4093 39.8436 45.4598 39.2571 44.8747C38.6721 44.2882 37.7211 44.2882 37.1361 44.8747L36.5 45.5108V40.7886C38.6016 40.2441 40.2441 38.0001 40.7886 36.5H45.5063L44.8702 37.1361C44.2852 37.7211 44.2852 38.6721 44.8702 39.2571C45.4568 39.8436 46.4078 39.8436 46.9943 39.2571L49.1259 37.1166C50.2914 35.9465 50.2914 34.0535 49.1259 32.8834L46.9943 30.7429Z"
+                fill="white" />
+            </svg>
+
+            <div class="poplar-cities valign-text-middle"> <span>
+                <span class="text1">Local<br /></span>
+                <span class="text2">Insights</span>
+              </span>
+            </div>
+          </span>
+        </div>
+        <!--plus-->
+
+
+        <!--happy-->
+        <div class="happy">
+          <span class="iwt">
+            <svg width="70" height="70" viewBox="0 0 70 70" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <circle cx="35" cy="35" r="35" fill="white" />
+              <path fill-rule="evenodd" clip-rule="evenodd"
+                d="M44 32C44 33.6575 42.6575 35 41 35C39.3425 35 38 33.6575 38 32C38 30.3425 39.3425 29 41 29C42.6575 29 44 30.3425 44 32ZM42.3365 38.234C40.8155 45.9215 29.1845 45.9215 27.6635 38.234C27.485 37.328 28.238 36.5 29.162 36.5C29.882 36.5 30.47 37.0205 30.638 37.721C31.6805 42.0935 38.3195 42.0935 39.362 37.721C39.53 37.0205 40.118 36.5 40.838 36.5C41.762 36.5 42.515 37.328 42.3365 38.234ZM29 35C27.3425 35 26 33.6575 26 32C26 30.3425 27.3425 29 29 29C30.6575 29 32 30.3425 32 32C32 33.6575 30.6575 35 29 35ZM35 47C28.3835 47 23 41.6165 23 35C23 28.3835 28.3835 23 35 23C41.6165 23 47 28.3835 47 35C47 41.6165 41.6165 47 35 47ZM35 20C26.7155 20 20 26.7155 20 35C20 43.2845 26.7155 50 35 50C43.2845 50 50 43.2845 50 35C50 26.7155 43.2845 20 35 20Z"
+                fill="#0C1077" />
+            </svg>
+
+            <div class="poplar-cities valign-text-middle"> <span>
+                <span class="text1">Enjoyable<br /></span>
+                <span class="text2">Moments</span>
+              </span>
+            </div>
+          </span>
+        </div>
+        <!--happy-->
+      </div>
+
+      <div class="footer">
+
+        <div class="ro1">
+          <div class="ro1"><img src="img/pexels-asad-photo-maldives-3155666 1.png" style="padding-left:75px">
+            <div style="width: 330px;">
+
+
+              <h3 style=" font-family: 'Cormorant Infant', serif; font-weight: 600; padding-left:20px; padding-top:60px;">Hundreds of guides</h3>
+              <h4 style=" font-family: 'Cormorant Infant', serif; font-weight:300; padding-left:20px; padding-top:5px; ">New high-quality guides<br> added each week.</h4>
+
+            </div>
+          </div>
+          <div class="ro1"><img src="img/pexels-pierre-blaché-3369102 1.png" style="margin-left:50px">
+            <div style="width: 330px;">
+
+              <h3 style=" font-family: 'Cormorant Infant', serif; font-weight: 600; padding-left:20px; padding-top:60px;">Many local experts</h3>
+              <h4 style=" font-family: 'Cormorant Infant', serif; font-weight:300; padding-left:20px; padding-top:5px;">The largest netword of local guides all over the world.</h4>
+
+            </div>
+
+          </div>
+
+        </div>
+
+
+
+
+      </div>
+
+
+    </div>
 </body>
+</body>
+
 </html>
